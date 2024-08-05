@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#increment-btn {
+    background-color: #f44336; 
+}
+
+#increment-btn:hover {
+    background-color: #e53935;
+}
+
+#increment-btn:active {
+    background-color: #d32f2f;
+}
+
+#save-btn {
+    background-color: #4CAF50;
+}
+
+#save-btn:hover {
+    background-color: #45a049;
+}
+
+#save-btn:active {
+    background-color: #3e8e41;
+}
